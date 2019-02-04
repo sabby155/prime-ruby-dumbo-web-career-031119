@@ -10,7 +10,11 @@
 # end 
   
   def prime?(int)
-  (2..(int - 1)).each do |n|
+    if n <= 1
+    return false
+  elsif n <= 3
+    return true
+  else (2..(int - 1)).each do |n|
     return false if int % n == 0 
     end
   return true
