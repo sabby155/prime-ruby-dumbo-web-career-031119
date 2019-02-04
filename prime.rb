@@ -10,6 +10,8 @@
 # end 
   
   def prime?(int)
+    if n <= 1
+    return false
   (2..(int - 1)).each do |n|
     return false if int % n == 0 
     end
