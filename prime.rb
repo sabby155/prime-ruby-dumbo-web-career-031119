@@ -10,7 +10,7 @@
 # end 
   
   def prime?(int)
-    if n <= 1
+    if int <= 1
     return false
   end
   (2..(int - 1)).each do |n|
