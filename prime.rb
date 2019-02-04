@@ -15,7 +15,7 @@
   elsif n <= 3
     return true
   else (2..(int - 1)).each do |n|
-    return false if int % n == 0 
+     int % n == 0 
     end
   return true
 end 
