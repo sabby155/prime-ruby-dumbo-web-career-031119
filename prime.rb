@@ -12,7 +12,7 @@
   def prime?(int)
     if int <= 1
     return false
-  (2..(int - 1)).each do |n|
+  elsif (2..(int - 1)).each do |n|
     return false if int % n == 0 
     end
   return true
